@@ -30,7 +30,7 @@
     justify-content: center;
 }
 
-.img-logo{
+.header__img{
     width: 150px;
     height: 55px;
     background-image: url(../img/logo.png);
@@ -45,16 +45,16 @@
     padding: 10px 2%;
 }
 
-.titulo{
+.titles__titulo{
     margin-bottom: 10px;
 }
 
-.titulo h2{
+.titles__titulo h2{
     font-size: 32px;
     font-weight: 700;
 }
 
-.cont-titulo p{
+.titles__cont p{
     font-weight: 300;
     font-size: 14px;
 }
@@ -75,7 +75,7 @@
 
 }
 
-.cont-memoria{
+.memoria__cont{
     width: 100%;
     height: 100%;
    display: flex;
@@ -85,13 +85,13 @@
 }
 
 
-.row{
+.memoria__row{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.bg-card{
+.memoria__bg__card{
     width: 70px;
     height: 70px;
     background-color: #C23616;
@@ -101,7 +101,7 @@
     justify-content: center;
     box-shadow: 3px 3px 5px #0000004D;
 }
-.bg-img{
+.memoria__bg__img{
     width: 35px;
     height: 35px;
     background-image: url(../img/icon-pokebola.svg);
