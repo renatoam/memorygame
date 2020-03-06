@@ -1,10 +1,23 @@
-# Memory Game
+# Desafios Front-End
 
-Serão diversos desafios que serão propostos conforme os participantes forem resolvendo o desafio anterior. Conforme forem sendo resolvidos a dificuldade irá aumentando, até chegar em um ponto em que o jogo fique completamente dinâmico, escalável e componentizado.
+A ideia é criar projetos (um jogo ou aplicação) e dividí-lo em diversos desafios que serão propostos sequencialmente, cada um com uma dificuldade e com um pacote de requisitos, ou seja, regras obrigatórias para conclusão do desafio. Conforme os desafios forem sendo resolvidos, a dificuldade irá aumentando até chegar em um ponto em que o jogo/aplicação fique completamente dinâmico, escalável e componentizado. Dessa forma, o participante irá aprender diversas tecnologias e conceitos importantes no desenvolvimento web.
+
+No final, o participante poderá colocar no currículo todas as coisas que aprendeu nos desafios e que são exigidas na grande maioria das vagas de Front-End.
+
+Para os desafios, serão criadas *ISSUES* no repositório contendo a descrição, os requisitos e o layout para o desafio. Todas as imagens, cores, etc., estarão no link do layout, sempre no final do desafio. O Adobe XD já deixa os assets organizados e prontos para serem exportados.
+
+Em **todos** os desafios eu deixarei instruções e um vídeo - feito por mim, com uma explicação básicas dos requisitos, além de alguns links para documentações ou tutoriais.
+
+Apesar de eu querer estimular o participante a pesquisar e chegar às próprias conclusões, é de suma importância me chamar sempre que estiver com bloqueios ou dúvidas que estejam atrapalhando a execução do desafio. Claro que também vou ajudar com dúvidas menores, a ideia é pesquisar, mas fiquem à vontade para tirar quaisquer dúvidas.
 
 ## Instruções
 
-- Foram criadas duas branches para cada dev, uma com seu nome (*renato*) e uma com sua inicial + develop (*rdevelop*).
+Todos os projetos terão um repositório próprio, mas as instruções de início e configuração de ambiente de desenvolvimento serão praticamente as mesmas.
+
+Inicialmente, os projetos serão sempre criados no meu repositório e os participantes farão um **fork** do projeto.
+
+// EXPLICAR FORK - CONTINUO AMANHÃ
+
 - No botão verde, clique para clonar seu repositório. Basta copiar o caminho mostrado.
 - Na sua máquina, crie uma pasta para o projeto e navegue até essa pasta pelo CMD. Ex.:
        
