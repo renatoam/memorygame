@@ -20,7 +20,11 @@ Inicialmente, os projetos serão sempre criados no meu repositório e os partici
 
 Toda vez que entramos em algum repositório, temos três botões no canto superior direito da tela:
 
-![Botão fork](/assets/fork.jpg "Botão Fork do Github")
+![Botão fork](/fork.png "Botão Fork do Github")
+
+Quando clicar em *Fork* o repositório em questão será copiado para sua conta do Github e você passa a ter autonomia sobre ele. Feito isso, agora preciso ser adicionado como colaborador para poder realizar modificações no repositório, criar os desafios e revisar *Pull Requests*.
+
+### Adicionando colaborador
 
 - No botão verde, clique para clonar seu repositório. Basta copiar o caminho mostrado.
 - Na sua máquina, crie uma pasta para o projeto e navegue até essa pasta pelo CMD. Ex.:
