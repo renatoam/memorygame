@@ -185,19 +185,48 @@ Nos nossos projetos, iremos trabalhar sempre com 3 branches, a branch **master**
             
 - Agora, é necessário subir suas alterações no repo origin: 
     
-            > git push -u origin renato/desafio1
+       > git push -u origin renato/desafio1
     
 **Obs.:** É possível que o git peça seu usuário e senha do Github.
 **Obs.:** Se na primeira vez que fizer um push, usar o parâmetro -u, como no exemplo, nas próximas vezes, basta executar *git push origin* que o Git já irá atualizar a branch remota correta sempre precisar especificar.
     
 #### Criando um Pull Request
 
-- No Github, na sua página do repositório, clique no botão **New Pull Request**.
-- Há duas caixas de seleção de branches, uma com *base:*, outra com *compare:*.
+- Quando fizer o *push* das alterações, o botão de pull request (verde) aparece logo no topo do repositório (origin e upstream):
+
+![PR new branch](/assets/pr-new-branch.png "Botão de PR com nova branch")
+
+- Ao clicar, veja que há duas caixas de seleção de branches, uma com *base:*, outra com *compare:*.
+
 - Na caixa com *compare*, selecione sua branch (com seu nome).
-- Na caixa com *base*, selecione a branch develop com a sua inicial, ex.: rdevelop
-- Coloque um título e uma descrição para o Pull Request (chamamos de PR).
+
+- Na caixa com *base*, selecione a branch develop do upstream.
+
+![Open PR](/assets/openpr.png "Abrir novo pull request")
+
+- Coloque um título e uma descrição para o Pull Request.
+       - Na descrição, clique no botão "Reference an issue or pull request" (imagem abaixo) e faça a citação do desafio em questão.
+       - Para citar, use a hashtag # e selecione a issue do desafio
+       
+![Citando Issue](/assets/issue.png "Citando a issue do desafio")
+
 - No lado direito, em *Reviewers*, clique na engrenagem e digite meu nome **Renato**, dessa vez é o meu mesmo, pois você está me colocando como revisor do seu PR.
-- Pronto! Agora é só esperar o meu feedback. 
-- Caso tenha correções a serem feitas, eu irei rejeitar o seu PR com comentários no código sobre o que melhorar. 
-- Realizadas as correções, você repete o processo de commitar as alterações e fazer um novo PR até eu aprovar.
+
+- Logo abaixo, em *Labels*, clique e selecione *challenge*.
+
+- Agora, clique em Create Pull Request (botão verde) e aguarde minha revisão.
+
+- Caso haja correções a serem feitas, eu irei reprovar o seu PR com alguns comentários no código sobre o que corrigir.
+
+- Para corrigir o que foi apontado, basta realizar as alterações na mesma branch (com seu nome) e repetir o processo de push.
+
+**Obs.:** Não há necessidade de criar um novo Pull Request para as correções solicitadas, quando fizer o push, seu PR será atualizado automaticamente. Basta me avisar que já efetuou as correções.
+
+- Assim que eu aprovar seu PR, eu mesmo irei fazer merge da sua branch na develop, dessa forma, sua versão ficará disponível no meu repositório original, dentro da pasta que você criou.
+
+- Quando voltar ao seu repositório, você terá a opção de deletar sua branch. Faça se quiser.
+
+- Pronto! Agora é só partir para o próximo desafio.
+
+**Obs.:** Veja os vídeos para exemplos práticos
+
