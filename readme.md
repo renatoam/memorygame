@@ -1,6 +1,11 @@
-# Desafios Front-End
+# Projeto Refactoring
+O projeto Refactoring consiste em passar por todos os meus repositórios antigos e refatorar o código existente e finalizar os projetos inacabados.
 
-## Objetivo
+A ideia também é manter a versão antiga em outra branch, assim posso fazer comparações entre eles.
+
+Disclaimer: esse não é exatamente um refactoring, mas criar o projeto em si. Eu só estou mantendo esse repo e adicionando ao projeto, porque lembro o trabalho que deu pra fazer esse readme na época. Vale a pena insistir.
+
+## 10. Objetivo
 
 A ideia é criar projetos (um jogo ou aplicação) e dividí-los em diversos desafios que serão propostos sequencialmente, cada um com uma dificuldade e com um pacote de requisitos - regras obrigatórias para conclusão do desafio. Conforme os desafios são resolvidos, a dificuldade aumenta ao ponto em que o jogo/aplicação fique dinâmico, escalável e componentizado. 
 
